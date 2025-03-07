@@ -1,11 +1,8 @@
 package vn.hoidanit.jobhunter.domain;
 
-import java.security.Permission;
 import java.time.Instant;
 import java.util.List;
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
@@ -38,7 +35,6 @@ public class Role {
     private boolean active;
     private Instant createdAt;
     private Instant updatedAt;
-
     private String createdBy;
     private String updatedBy;
 
