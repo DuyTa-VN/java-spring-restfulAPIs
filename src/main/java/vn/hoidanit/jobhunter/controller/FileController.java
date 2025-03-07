@@ -1,4 +1,4 @@
-package vn.hoidanit.jobhunter.config;
+package vn.hoidanit.jobhunter.controller;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

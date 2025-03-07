@@ -1,4 +1,4 @@
-package vn.hoidanit.jobhunter.domain.response;
+package vn.hoidanit.jobhunter.domain.response.job;
 
 import java.time.Instant;
 import java.util.List;
@@ -9,7 +9,7 @@ import vn.hoidanit.jobhunter.util.constant.LevelEnum;
 
 @Getter
 @Setter
-public class ResCreateJobDTO {
+public class ResUpdateJobDTO {
     private long id;
     private String name;
 
@@ -27,6 +27,7 @@ public class ResCreateJobDTO {
 
     private List<String> skills;
 
-    private Instant createdAt;
-    private String createdBy;
+    private Instant updatedAt;
+    private String updatedBy;
+
 }
